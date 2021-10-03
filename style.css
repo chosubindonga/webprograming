@@ -1,0 +1,28 @@
+body{
+    margin: 20px;
+    font-size: 16px;
+}
+header h1{
+    position: relative;
+    animation: bounce .3s ease infinite alternate;
+    font-size: 20px;
+}
+@keyframes bounce {
+    100% {
+      top: -5px;
+    }
+  }
+nav{
+    position: sticky;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    padding: 20px 30px;
+    letter-spacing: 5px;
+}
+nav ul li:hover{
+    background-color: lightpink;
+}
